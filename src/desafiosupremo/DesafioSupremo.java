@@ -50,6 +50,10 @@ public class DesafioSupremo {
         }
         return aposta = 0;
     }
+    
+    public static void despedir (){
+        System.out.println("Até uma próxima vez!");
+    }
 
     public static void main(String[] args) {
 
@@ -88,9 +92,7 @@ public class DesafioSupremo {
                 again = 1;
                 resultado = "Acertou!";
             }
-
         }
-
         System.out.println("Quer ter a ultima chance de aumentar a banca?");
 
         System.out.println("Proponho um último jogo: Penso em número de 1 a 3, "
@@ -119,7 +121,8 @@ public class DesafioSupremo {
             }
             System.out.println("Obrigado por jogar até o fim!");
         }
-
+        
+        despedir();
     }
 
 }
